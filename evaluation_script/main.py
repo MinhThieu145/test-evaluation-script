@@ -4,8 +4,9 @@ import random
 def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwargs):
 
     # raise error for testing purposes
-    raise RuntimeError("This is testing error!")
-    
+    raise Exception("This is a test exception")
+
+
     print("Starting Evaluation.....")
     """
     Evaluates the submission for a particular challenge phase and returns score
